@@ -1,0 +1,12 @@
+/.idea/
+/node_modules/
+/level/
+*.exe
+cli-*
+*.adofai
+*.mp3
+*.wav
+*.ogg
+*.png
+*.jpg
+*.jpeg

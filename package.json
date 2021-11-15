@@ -1,0 +1,29 @@
+{
+  "name": "adofai-optimize",
+  "version": "1.0.0",
+  "description": "ADOFAI level optimizer.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "node cli.js",
+    "build": "npx pkg cli.js",
+    "tag_test": "node tagOptimize.js --debug",
+    "tag_build": "npx pkg tagOptimize.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjdgustn/adofai-optimize.git"
+  },
+  "author": "HYONSU",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/wjdgustn/adofai-optimize/issues"
+  },
+  "homepage": "https://github.com/wjdgustn/adofai-optimize#readme",
+  "dependencies": {
+    "json5": "^2.2.0",
+    "sharp": "^0.29.1"
+  },
+  "devDependencies": {
+    "pkg": "^5.3.3"
+  }
+}
